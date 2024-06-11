@@ -15,7 +15,7 @@ class TipsCard extends StatelessWidget {
           tips.imageUrl,
           width: 80,
         ),
-        SizedBox(
+        const SizedBox(
           width: 16,
         ),
         Column(
@@ -27,7 +27,7 @@ class TipsCard extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 4,
             ),
             Text(
@@ -36,7 +36,7 @@ class TipsCard extends StatelessWidget {
             ),
           ],
         ),
-        Spacer(),
+        const Spacer(),
         IconButton(
           onPressed: () {},
           icon: Icon(
